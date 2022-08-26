@@ -7,7 +7,8 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./images/logo.png" alt="logo" className="logo" />
+        {/* <img src="./images/logo.png" alt="logo" className="logo" /> */}
+        <h3 className="logo-name">WASEEM NASIR (REACT Js)</h3>
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -25,6 +26,11 @@ const MainHeader = styled.header`
   .logo {
     height: auto;
     max-width: 30%;
+  }
+  .logo-name{
+    background-color: ${({ theme }) => theme.colors.btn};
+    color:${({ theme }) => theme.colors.white};
+    /* box-shadow: "10px 30px 10px #black"; */
   }
 `;
 

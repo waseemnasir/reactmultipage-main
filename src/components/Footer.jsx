@@ -27,7 +27,7 @@ const Footer = () => {
       <footer>
         <div className="container grid grid-four-column">
           <div className="footer-about">
-            <h3>Thapa Technical</h3>
+            <h3>WASEEM NASIR</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
 
@@ -68,7 +68,9 @@ const Footer = () => {
           {/* 4th column  */}
           <div className="footer-contact">
             <h3>Call Us</h3>
-            <h3>+91 12345678978</h3>
+            <h3>+92 3065502987</h3>
+            <h3>EMAIL</h3>
+            <h3>m.waseem.nasir1@gmail.com</h3>
           </div>
         </div>
 
@@ -77,7 +79,7 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()} WASEEM NASIR. All Rights Reserved
             </p>
             <div>
               <p>PRIVACY POLICY</p>

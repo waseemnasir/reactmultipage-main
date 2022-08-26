@@ -14,8 +14,7 @@ const HeroSection = () => {
           <p className="hero-top-data">THIS IS ME</p>
           <h1 className="hero-heading">{name}</h1>
           <p className="hero-para">
-            I'm {name}. A Full stack Developer, youtuber and freelancer. A Full
-            stack Developer, youtuber and freelancer.
+            I'm {name}. A web and app developer having calm and dignity in my personality. I am always eager to accept challenging work, be a team player, and strive for my success. My process for web and app development and complex problem-solving skills will surely add value to organizational success.
           </p>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> hire me </NavLink>
